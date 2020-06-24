@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+#sh1 {
+    display: inline-flexbox;
+    background-color:pink;
+    text-align: center; 
+    border-style: solid;
+    border-width: 1px;  
+} 
+#sh2 {
+    display: block;
+    background-color: rgb(179, 95, 95);
+    text-align: center;
+    border-style: solid; 
+    border-width: 1px;   
+}
+#sh3 {
+    display: block;
+    background-color: rgb(192, 106, 72);
+    text-align: center; 
+    border-style: solid;
+    border-width: 1px;   
+}
+
+section {
+    display: block;
+    background-color:rgb(161, 141, 216);
+    
+   
+    margin-bottom: 10px;
+     
+}
+ section div {
+    padding-left: 80%;
+            
+} 
