@@ -82,15 +82,15 @@ p {
    } 
    .col-md-6 #se1{
     float: left;
-    width: 50% ;
+    width: 48% ;
+   
+   } 
+   .col-md-6 #se2{
+    float: right;
+    width: 48% ;
    
    } 
    
-   
-   
-    /* section #se1{
-        
-    } */
    section {
     
     margin-bottom: 2%;
