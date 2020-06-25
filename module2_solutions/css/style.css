@@ -14,7 +14,7 @@ h1 {
      
 } 
 #sh2 {
-    display: block;
+   
     background-color: rgb(179, 95, 95);
     text-align: center;
     border-style: solid; 
@@ -24,7 +24,7 @@ h1 {
     border-right: none;
 }
 #sh3 {
-    display: block;
+    
     background-color: rgb(192, 106, 72);
     text-align: center; 
     border-style: solid;
@@ -35,15 +35,77 @@ h1 {
 }
 
 section {
-    display: block;
+    
     background-color:rgb(161, 141, 216);
     width: auto;
-    height: auto;
-   border: 1px solid black;
-    margin-bottom: 10px;
+    height: 200px;
+    border: 1px solid black;
+    
+    
      
 }
  section div {
-    padding-left: 80%;
+    padding-left: 70%;
             
 } 
+p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media (min-width: 992px){
+     .row {
+        width: 100%;
+        
+    }
+    
+ .col-lg-4 {
+     float: left;
+     width: 33% ;
+ } 
+  section {
+    margin-right: 10px;
+    margin-left: 10%;
+    
+  }
+ 
+}
+
+@media (min-width: 768px) and (max-width:991px){
+    .row {
+        width: 100%;
+    }
+   .col-md-6 #se3{
+    float: left;
+     width: 100% ;
+     
+   } 
+   .col-md-6 #se1{
+    float: left;
+    width: 50% ;
+   
+   } 
+   
+   
+   
+    /* section #se1{
+        
+    } */
+   section {
+    
+    margin-bottom: 2%;
+    
+  }
+   
+    
+   
+}
+
+@media (max-width:767px){
+    section {
+    
+        margin-bottom: 2%;
+        
+      }
+      
+}
