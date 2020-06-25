@@ -10,6 +10,7 @@ h1 {
     border-width: 1px;
     margin-top: 0px;
     border-top: none;
+    border-right: none;
      
 } 
 #sh2 {
@@ -20,6 +21,7 @@ h1 {
     border-width: 1px;  
     margin-top: 0px;
     border-top: none;
+    border-right: none;
 }
 #sh3 {
     display: block;
@@ -29,6 +31,7 @@ h1 {
     border-width: 1px;
     margin-top: 0px; 
     border-top: none;  
+    border-right: none;
 }
 
 section {
